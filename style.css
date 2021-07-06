@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;;
+}
+.top-banner{
+    padding-top: 0px;
+    margin-bottom: 100px;
+    background-image: url("images/shapes/Project Cover4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 1000px;
+}
+p{
+    color: #816f6f;
+    line-height: 1.4;
+}
+.coral-color{
+    color:coral
+}
+.link-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+}
+.flex-content{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin: 0 4%;
+    padding: 0 4%;
+}
+.half-width img{
+    width: 100%;
+}
+
+/* header area  */
+.header-area{
+    padding:100px 0;
+
+}
+.header-area h1{
+    font-size: 60px;
+}
+.header-area p{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.distance{
+    margin-bottom: -40px;
+}
+
+/* about area  */
+.about-area{
+    padding-top: 50px;
+    margin-bottom: 100px;
+    background-image: url("images/shapes/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-area h2{
+    margin-top: 60px;
+}
+.about-area p{
+    margin-bottom: 100px;
+}
+
+/* recipes area  */
+.recipes-area{
+    padding-bottom: 60px;
+}
+.recipes-info{
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center; 
+}
+.single-box{
+    width: 335px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.single-box img{
+    width: 337px;
+    height: 256px;
+}
+
+/* social area  */
+.social-area{
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.social-content{
+    width: 34%;
+}
+.social-content h5{
+    margin-top: -15px;
+    color: #817c7cce;
+}
+
+/* footer area  */
+footer{
+    padding: 50px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.network-color{
+    color:#7e77aa;
+}
